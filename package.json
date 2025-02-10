@@ -1,7 +1,7 @@
 {
   "name": "bakery-landing-page",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,5 +27,14 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "vite": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shreekant-04/bakery-landing-page.git"
+  },
+  "figma": "https://www.figma.com/design/MtCJHfOH4AvPCCkG3TpJ5C/Bakery-Website-Ui-(Community)?node-id=0-1&p=f&t=FfIQSMZwia9N7Yf1-0",
+  "author": {
+    "name": "Shreekant",
+    "email": "shreekant4062@gmail.com"
   }
 }
