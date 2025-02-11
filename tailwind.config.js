@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"], 
-        Sansita: ["Sansita Swashed", "serif"], 
+        Inter: ["Inter", "sans-serif"],
+        Sansita: ["Sansita Swashed", "serif"],
+        Poppins: ["Poppins", "serif"],
       },
     },
   },
