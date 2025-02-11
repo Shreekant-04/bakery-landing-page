@@ -2,13 +2,15 @@ import heroImg from "../../assets/heroImg.png";
 
 export const Section1 = () => {
   return (
-    <section className="h-[40vh] lg:h-screen w-full bg-cover bg-center relative flex justify-start items-center">
-      <img
-        src={heroImg}
-        alt="heroImg"
-        className="absolute top-0 left-0 h-full w-full object-fill"
-      />
-      <div className="z-30 text-white px-4 sm:px-8 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-1/2 flex flex-col">
+    <section
+      className="h-[40vh] lg:h-screen w-full bg-cover bg-center relative flex justify-start items-center"
+      style={{
+        backgroundImage: `url(${heroImg})`,
+        backgroundSize: "100% 100%",
+        backgroundRepeat:"no-repeat",
+      }}
+    >
+      <div className="z-30 text-white px-4 sm:px-8 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-1/2 flex flex-col lg:ml-12">
         <div>
           <p className="text-[#E9BD8C] text-lg sm:text-xl md:text-2xl font-Inter">
             Delicious Cafe
