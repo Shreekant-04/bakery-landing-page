@@ -22,8 +22,8 @@ const Home = () => {
       <Section2 />
       <Banner
         img={offerImg}
-        titleColor={"[#933C24]"}
-        textColor={"[#3a3838]"}
+        titleColor="#933C24"
+        textColor="#3a3838"
         title={"20% Off  Your First Order"}
         desc={
           "Sign up today and enjoy exclusive savings on our delicious baked goods!"
@@ -43,6 +43,8 @@ const Home = () => {
       <Banner
         img={aboutImg}
         title={"About us"}
+        textColor="#B9B9B9"
+        titleColor="#F5F5F5"
         desc={" where passion meets perfection in every bite. Since 2010. "}
       >
         <button className="px-2 sm:px-8 py-2 sm:py-4 rounded-lg border font-semibold text-white border-[#933C24] bg-[#933C24] text-xs sm:text-base">
