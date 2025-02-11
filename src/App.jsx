@@ -1,7 +1,13 @@
-export default function App() {
+import Navbar from "./components/common/Navbar";
+import Home from "./components/home/Home";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline font-Sansita">
-      Hello world!
-    </h1>
-  )
-}
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
+};
+
+export default App;
